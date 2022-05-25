@@ -1,0 +1,190 @@
+.card{
+    
+    margin:0;
+    max-width: fit-content;
+    padding:10px;
+    padding-left: 15px;
+    border-right: 1px solid grey;
+}
+.express{
+    display:flex;
+    margin-bottom: 15px;
+}
+.express h5{
+    line-height: 1; 
+    font-size: 14px;
+    margin-bottom: 0;
+    color:grey;
+    margin-left:3px;
+}
+.icon{
+    height:18px;
+}
+.express h6{
+    line-height: 1; 
+    font-size: 12px;
+    margin-bottom: 0;
+    color:grey;
+    margin-left:3px;
+}
+.return h6{
+    line-height: 1; 
+    font-size: 14px;
+    margin-bottom: 0;
+    color:grey;
+    margin-left:3px;
+}
+.return{
+    display:flex;
+}
+.offer{
+    color:aliceblue;
+    background-color: rgb(87, 119, 178);
+    padding:2px;
+    padding-left:5px;
+    height:30px;
+}
+.offer img{
+    padding-right:3px;
+}
+p{
+    text-align: left;
+}
+.proName{
+    font-size: 14px;
+}
+
+.buy_button{
+    color:white;
+    background-color: rgb(251, 165, 4);
+    padding:10px;
+    border: none;
+    width: 120px;
+    margin-bottom: 15px;
+}
+h4{
+    text-align: left;
+    font-size: 20px;
+}
+
+h2{
+    color:orange;
+}
+.shop_image{
+    height: 100px;
+    width: 100px;
+}
+.shop_name{
+    font-size: 13px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(223, 221, 221);
+    margin: 7px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 2px;
+}
+.detailFooter{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 11px;
+   
+}
+
+.detailFooter img{
+   height: 20px;
+}
+.order_button{
+    height:26px;
+    color:white;
+    background-color: rgb(242, 162, 15);
+    padding:2px;
+    border: none;
+    width: 120px;
+    margin-left: 15px;
+}
+.alternateImage{
+    background-image: url("https://image.shutterstock.com/image-photo/stylish-watch-on-woman-hand-600w-1103215058.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100px;
+}
+
+.alternateDetail{
+    margin:0;
+}
+.alternateDetail p{
+    font-size: 14px;
+}
+.strike{
+    text-decoration: line-through;
+}
+
+.detailFooter h6{
+    margin-right:5px;
+}
+.imageFooter{
+        max-width: 100%;
+        max-height: 100%;
+}
+
+@media(max-width:500px){
+    .card{
+        margin:10px;
+        padding: 15px;
+    }
+    .shopAddress{
+     font-size: 17px;
+    }
+    .delivery{
+      font-size: 17px;
+    }
+    .shop_image{
+        height: 60px;
+        width: 60px;
+    }
+    .shop_name{
+        font-size: 10px;
+        text-align: center;
+    }
+    .express h5{
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    .express h6{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .return h6{
+        font-size: 14px; 
+        font-weight: 500;
+    }
+    .icon{
+        height:16px;
+    }
+    .offer{
+        color:aliceblue;
+        background-color: rgb(87, 119, 178);
+        padding:2px;
+        padding-left:5px;
+        height:26px;
+        font-size: 13px;
+    }
+    .offer img{
+        padding-right:3px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .buy_button{
+        color:white;
+        background-color: rgb(251, 165, 4);
+        padding:8px;
+        border: none;
+        width: 100px;
+        font-size: 15px;
+    }
+}

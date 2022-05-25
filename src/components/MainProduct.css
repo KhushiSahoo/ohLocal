@@ -1,0 +1,75 @@
+.onlinePrice{
+    text-decoration: line-through;
+    font-size: 30px;
+}
+.onlinePriceDiv{
+    display: flex;
+    align-items: center;
+}
+.onlinePriceDiv img{
+    height:32px;
+}
+.onlinePriceDiv h5{
+    font-size:28px;
+}
+.pro_pipeline{
+    color:grey;
+}
+.qty{
+    text-align: left;
+    font-size: 20px;
+}
+.detail{
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 17px;
+    font-size: 16px;
+}
+.midCol{
+    border-right:1px solid grey;
+    padding: 7px;
+    margin:5px;
+}
+.Status{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.Status img{
+    height:20px;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+}
+.Status h5{
+   color:red;
+   font-size: 30px;
+   text-align: left;
+   margin: 0;
+}
+.Status p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.bid_placed{
+    display:flex;
+    margin-top:120px;
+    margin-bottom: 15px;
+}
+.bidPlacedText{
+    color:grey;
+}
+.bidPlacedQty{
+    color:green;
+}
+@media (max-width :576px){
+    .bid_placed{
+        display:flex;
+        margin-top:30px;
+        margin-bottom:15px;
+    } 
+}
